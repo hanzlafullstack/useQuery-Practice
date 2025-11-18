@@ -1,0 +1,24 @@
+
+/* Home Page */
+
+.home-page{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.home-child{
+    flex: 1 1 0;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+}
+.headings-box h2 , p{
+    text-align: center;
+    margin: 5px 0;
+}
+.headings-box h2{
+    text-decoration: underline;
+}

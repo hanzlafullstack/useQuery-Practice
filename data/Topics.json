@@ -1,0 +1,112 @@
+{
+  "topics": [
+    {
+      "id": 1,
+      "title": "Introduction to React Query (TanStack Query)",
+      "description": "React Query, also called TanStack Query, is a library that simplifies server state management in React applications. It allows developers to fetch, cache, and update data efficiently without manually managing loading, error, and success states. In this topic, you get an overview of why React Query was created, what problems it solves compared to using fetch or Axios, and how it fits into modern React applications. You also learn the key concepts such as queries, mutations, and query caching. Understanding the introduction sets the foundation for all subsequent topics and advanced features. By the end of this, you will understand the benefits of using React Query to build scalable and high-performing React applications.",
+      "status": "completed"
+    },
+    {
+      "id": 2,
+      "title": "What is TanStack Query and its advantages",
+      "description": "This topic dives deeper into TanStack Query and its unique advantages. You learn that it provides automatic caching, background updates, query synchronization across components, and built-in support for pagination and infinite scrolling. It reduces redundant network requests, manages stale data efficiently, and improves user experience by providing smooth loading transitions. The topic also covers how React Query simplifies state management by decoupling server state from local state, which makes apps more maintainable. You gain a clear understanding of why developers prefer React Query over traditional API handling methods and how it accelerates development time while ensuring reliability.",
+      "status": "completed"
+    },
+    {
+      "id": 3,
+      "title": "Installing TanStack Query in your project",
+      "description": "This topic guides you through installing TanStack Query in your React project using npm or yarn. You learn to include both the core library and the optional DevTools for debugging. It explains version compatibility, setting up project dependencies, and avoiding conflicts with other packages. By the end of this topic, you will know how to import essential modules like QueryClient and QueryClientProvider, and how to structure your project to work seamlessly with React Query. This sets up the foundation to start managing queries and caching data efficiently in your application.",
+      "status": "completed"
+    },
+    {
+      "id": 4,
+      "title": "Adding QueryClient and QueryClientProvider in React",
+      "description": "The QueryClient is the central instance that manages all queries and mutations in React Query. In this topic, you learn how to create a QueryClient and provide it to your application using QueryClientProvider. You understand why the provider must wrap your component tree and how it enables sharing query states across components. The topic also covers default options, global configurations, and best practices for cache management. By completing this, you will be able to set up a consistent environment for queries, ensuring efficient caching, background updates, and proper state synchronization throughout your app.",
+      "status": "completed"
+    },
+    {
+      "id": 5,
+      "title": "Fetching API data with React Query",
+      "description": "This topic teaches how to fetch data from APIs using the useQuery hook. You learn to define queries with unique keys, structure query functions, and handle asynchronous data effectively. React Query provides automatic caching, background refetching, and status management, which eliminates repetitive boilerplate code. The topic demonstrates how to destructure returned data, loading, and error states to render UI conditionally. Best practices for organizing query functions and integrating them with components are discussed. After this topic, you will be able to display server data reactively in your UI while minimizing network requests.",
+      "status": "completed"
+    },
+    {
+      "id": 6,
+      "title": "Managing loading and error states using useQuery hook",
+      "description": "Handling loading and error states is essential for a smooth user experience. This topic focuses on leveraging useQuery's status flags, such as isLoading, isError, and isSuccess, to manage UI rendering. You will learn how to show spinners, skeletons, or error messages based on the query state. It also covers retries, fallback data, and avoiding UI flickers during data fetching. This knowledge helps prevent common issues like blank screens or unresponsive components when API calls are delayed or fail. By the end, you will be able to create reactive components that gracefully handle all data-fetching scenarios.",
+      "status": "completed"
+    },
+    {
+      "id": 7,
+      "title": "Installing React Query DevTools",
+      "description": "React Query DevTools is a powerful tool that allows developers to monitor queries and mutations in real-time. This topic shows how to install DevTools and integrate them into your application. You learn to inspect query caches, track stale times, observe query invalidations, and debug complex data flows. DevTools also help understand background updates, refetch intervals, and the lifecycle of queries. The topic emphasizes how DevTools improve developer experience and accelerate debugging, making it easier to optimize performance and maintain application stability. By the end, you will be comfortable using DevTools to monitor all your queries.",
+      "status": "completed"
+    },
+    {
+      "id": 8,
+      "title": "Understanding garbage collection in React Query",
+      "description": "React Query automatically removes unused queries from memory through garbage collection. This topic explains how cacheTime and staleTime options control how long data remains in memory. You will learn the difference between inactive queries and stale queries, and how React Query decides when to garbage collect. Manual garbage collection is also discussed, allowing developers to retain essential data while removing unnecessary queries. Best practices for cache management and performance optimization are covered. By mastering garbage collection, you ensure efficient memory usage and prevent memory leaks in long-running applications.",
+      "status": "completed"
+    },
+    {
+      "id": 9,
+      "title": "Managing stale time in React Query",
+      "description": "Stale time determines how long cached data is considered fresh before a refetch is triggered. In this topic, you will learn how to configure staleTime for different queries to optimize network requests and improve user experience. Longer stale times reduce unnecessary refetches, while shorter times ensure the data is up-to-date. The topic also covers scenarios such as background updates, dependent queries, and query invalidation. Understanding staleTime helps balance performance and data freshness. By the end, you will be able to configure queries effectively to suit different app requirements.",
+      "status": "completed"
+    },
+    {
+      "id": 10,
+      "title": "Polling in React Query",
+      "description": "Polling allows you to automatically refetch data at specified intervals, useful for real-time applications. This topic explains how to implement polling using the refetchInterval option in useQuery. You learn about its impact on performance, caching, and network usage. The topic also covers conditions for pausing or stopping polling when components unmount or when data becomes stale. Best practices for polling frequency and balancing server load are discussed. By mastering polling, you can build live-updating dashboards, chat apps, or other real-time features efficiently.",
+      "status": "completed"
+    },
+    {
+      "id": 11,
+      "title": "Using queryKeys in React Query",
+      "description": "Query keys are identifiers that distinguish queries and their cached data. In this topic, you learn how to structure queryKeys, including arrays for dynamic queries. You also explore best practices for naming keys and managing nested or dependent queries. Understanding queryKeys ensures proper cache updates, prevents collisions, and allows selective refetching. The topic demonstrates how queryKeys impact caching, invalidation, and background updates. By the end, you will understand how to organize queries for maintainable and efficient server state management.",
+      "status": "completed"
+    },
+    {
+      "id": 12,
+      "title": "Implementing pagination with TanStack Query",
+      "description": "Pagination is essential when dealing with large datasets. This topic shows how to implement pagination with useQuery by passing dynamic queryKeys and parameters. You learn to manage previous and next page states, handle loading and error states for each page, and update the UI accordingly. Infinite scrolling concepts are introduced as an extension. Best practices for caching paginated results and reducing redundant requests are discussed. By mastering pagination, you can efficiently display large datasets while keeping UI performance optimal.",
+      "status": "completed"
+    },
+    {
+      "id": 13,
+      "title": "Using useMutation to delete card data",
+      "description": "useMutation is used for operations that change server state, such as deleting data. This topic teaches how to use useMutation for deleting card items in a UI. You learn how to trigger mutations, update the cache after deletion, and handle loading and error states. Optimistic updates and rollback strategies are explained for a smooth user experience. Best practices for structuring mutation functions and error handling are also covered. By completing this topic, you will be able to safely modify server data and synchronize it with the client efficiently.",
+      "status": "completed"
+    },
+    {
+      "id": 14,
+      "title": "Using useMutation to update card data",
+      "description": "This topic covers using useMutation to update existing server data, such as modifying card information. You will learn how to send update requests, handle the response, and update query caches to reflect changes in the UI. Optimistic updates, error handling, and rollback mechanisms are explained to ensure smooth user experience. The topic also emphasizes structuring mutation functions clearly and avoiding race conditions. By mastering this, you can implement interactive applications that allow users to edit data seamlessly while keeping the client and server state synchronized.",
+      "status": "completed"
+    },
+    {
+      "id": 15,
+      "title": "Implementing infinite scrolling with React Query",
+      "description": "Infinite scrolling allows users to load data continuously as they scroll. This topic explains how to implement infinite scrolling using useInfiniteQuery. You will learn to manage pages, fetch more data on demand, and update the cache efficiently. Error handling and loading indicators for each page are covered. The topic also introduces techniques to prevent unnecessary fetches and optimize performance. By completing this, you can create modern user interfaces that handle large datasets without pagination buttons.",
+      "status": "completed"
+    },
+    {
+      "id": 16,
+      "title": "Using infiniteScroll with the React Intersection Observer package",
+      "description": "This topic combines React Query's useInfiniteQuery with the Intersection Observer API for better performance. You learn to detect when the user reaches the bottom of the page and trigger additional queries. This reduces unnecessary API calls and improves the efficiency of infinite scrolling. You also explore handling edge cases like component unmounting and error states. By the end, you will be able to build highly performant infinite scroll UIs that feel seamless and responsive to users.",
+      "status": "completed"
+    },
+    {
+      "id": 17,
+      "title": "Hosting a React Query website live on Hostinger",
+      "description": "This topic guides you through deploying a React Query app to a live hosting platform like Hostinger. You will learn how to build the app for production, upload files, configure domains, and set environment variables. The topic covers troubleshooting deployment issues, optimizing performance, and ensuring API endpoints work correctly. Best practices for continuous deployment and cache strategies in production are discussed. This topic is still pending completion and will be updated once the live deployment is finished.",
+      "status": "incomplete"
+    },
+    {
+      "id": 18,
+      "title": "Conceptual Question: Why use React Query over plain fetch or Axios?",
+      "description": "This conceptual topic explains why React Query is preferred over traditional fetch or Axios. It covers automatic caching, background updates, and query invalidation. You learn about reducing boilerplate code for managing loading and error states, as well as handling complex server state scenarios like pagination, infinite scrolling, and optimistic updates. The topic also emphasizes developer experience improvements with DevTools integration and scalability considerations. By the end, you understand why React Query simplifies building efficient and reactive data-driven applications.",
+      "status": "completed"
+    }
+  ]
+}

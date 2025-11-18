@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    align-items: center;
+    height: 75px;
+    justify-content: space-between;
+    padding: 0 30px;
+    background-color: #686767a8;
+}
+.header-navlinks{
+    text-decoration: none;
+    padding: 0 10px;
+}
+.header-navlinks:hover , .active{
+    color: rgb(255, 145, 0);
+    transition: all 0.45s cubic-bezier(0.23, 1, 0.320, 1);
+}
+.header-heading{
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+
+
+/* Footer */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: #686767a8;
+}
