@@ -52,49 +52,49 @@
       "id": 9,
       "title": "Managing stale time in React Query",
       "description": "Stale time determines how long cached data is considered fresh before a refetch is triggered. In this topic, you will learn how to configure staleTime for different queries to optimize network requests and improve user experience. Longer stale times reduce unnecessary refetches, while shorter times ensure the data is up-to-date. The topic also covers scenarios such as background updates, dependent queries, and query invalidation. Understanding staleTime helps balance performance and data freshness. By the end, you will be able to configure queries effectively to suit different app requirements.",
-      "status": "completed"
+      "status": "incompleted"
     },
     {
       "id": 10,
       "title": "Polling in React Query",
       "description": "Polling allows you to automatically refetch data at specified intervals, useful for real-time applications. This topic explains how to implement polling using the refetchInterval option in useQuery. You learn about its impact on performance, caching, and network usage. The topic also covers conditions for pausing or stopping polling when components unmount or when data becomes stale. Best practices for polling frequency and balancing server load are discussed. By mastering polling, you can build live-updating dashboards, chat apps, or other real-time features efficiently.",
-      "status": "completed"
+      "status": "incompleted"
     },
     {
       "id": 11,
       "title": "Using queryKeys in React Query",
       "description": "Query keys are identifiers that distinguish queries and their cached data. In this topic, you learn how to structure queryKeys, including arrays for dynamic queries. You also explore best practices for naming keys and managing nested or dependent queries. Understanding queryKeys ensures proper cache updates, prevents collisions, and allows selective refetching. The topic demonstrates how queryKeys impact caching, invalidation, and background updates. By the end, you will understand how to organize queries for maintainable and efficient server state management.",
-      "status": "completed"
+      "status": "incompleted"
     },
     {
       "id": 12,
       "title": "Implementing pagination with TanStack Query",
       "description": "Pagination is essential when dealing with large datasets. This topic shows how to implement pagination with useQuery by passing dynamic queryKeys and parameters. You learn to manage previous and next page states, handle loading and error states for each page, and update the UI accordingly. Infinite scrolling concepts are introduced as an extension. Best practices for caching paginated results and reducing redundant requests are discussed. By mastering pagination, you can efficiently display large datasets while keeping UI performance optimal.",
-      "status": "completed"
+      "status": "incompleted"
     },
     {
       "id": 13,
       "title": "Using useMutation to delete card data",
       "description": "useMutation is used for operations that change server state, such as deleting data. This topic teaches how to use useMutation for deleting card items in a UI. You learn how to trigger mutations, update the cache after deletion, and handle loading and error states. Optimistic updates and rollback strategies are explained for a smooth user experience. Best practices for structuring mutation functions and error handling are also covered. By completing this topic, you will be able to safely modify server data and synchronize it with the client efficiently.",
-      "status": "completed"
+      "status": "incompleted"
     },
     {
       "id": 14,
       "title": "Using useMutation to update card data",
       "description": "This topic covers using useMutation to update existing server data, such as modifying card information. You will learn how to send update requests, handle the response, and update query caches to reflect changes in the UI. Optimistic updates, error handling, and rollback mechanisms are explained to ensure smooth user experience. The topic also emphasizes structuring mutation functions clearly and avoiding race conditions. By mastering this, you can implement interactive applications that allow users to edit data seamlessly while keeping the client and server state synchronized.",
-      "status": "completed"
+      "status": "incompleted"
     },
     {
       "id": 15,
       "title": "Implementing infinite scrolling with React Query",
       "description": "Infinite scrolling allows users to load data continuously as they scroll. This topic explains how to implement infinite scrolling using useInfiniteQuery. You will learn to manage pages, fetch more data on demand, and update the cache efficiently. Error handling and loading indicators for each page are covered. The topic also introduces techniques to prevent unnecessary fetches and optimize performance. By completing this, you can create modern user interfaces that handle large datasets without pagination buttons.",
-      "status": "completed"
+      "status": "incompleted"
     },
     {
       "id": 16,
       "title": "Using infiniteScroll with the React Intersection Observer package",
       "description": "This topic combines React Query's useInfiniteQuery with the Intersection Observer API for better performance. You learn to detect when the user reaches the bottom of the page and trigger additional queries. This reduces unnecessary API calls and improves the efficiency of infinite scrolling. You also explore handling edge cases like component unmounting and error states. By the end, you will be able to build highly performant infinite scroll UIs that feel seamless and responsive to users.",
-      "status": "completed"
+      "status": "incompleted"
     },
     {
       "id": 17,
@@ -106,7 +106,7 @@
       "id": 18,
       "title": "Conceptual Question: Why use React Query over plain fetch or Axios?",
       "description": "This conceptual topic explains why React Query is preferred over traditional fetch or Axios. It covers automatic caching, background updates, and query invalidation. You learn about reducing boilerplate code for managing loading and error states, as well as handling complex server state scenarios like pagination, infinite scrolling, and optimistic updates. The topic also emphasizes developer experience improvements with DevTools integration and scalability considerations. By the end, you understand why React Query simplifies building efficient and reactive data-driven applications.",
-      "status": "completed"
+      "status": "incompleted"
     }
   ]
 }
