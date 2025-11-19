@@ -7,7 +7,9 @@ const HeaderLayout = () => {
       <h1 className='header-heading'>hanzlafullstack</h1>
       <div className="header-links-box">
         <NavLink to="/" className="header-navlinks">Home</NavLink>
-        <NavLink to="/about" className="header-navlinks">Posts</NavLink>
+        <NavLink to="posts" className="header-navlinks">Posts</NavLink>
+        <NavLink to="users" className="header-navlinks">Users</NavLink>
+        <NavLink to="recipes" className="header-navlinks">recipes</NavLink>
       </div>
     </header>
   )

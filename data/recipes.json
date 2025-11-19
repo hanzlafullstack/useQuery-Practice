@@ -1,0 +1,1123 @@
+[
+  {
+    "id": 1,
+    "slug": "classic-beef-bolognese",
+    "title": "Classic Beef Bolognese (Ragù alla Bolognese)",
+    "description": "The real deal from Bologna — slow-simmered, milk-tenderized, no garlic overload.",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 180,
+    "totalTimeMinutes": 200,
+    "servings": 6,
+    "difficulty": "Intermediate",
+    "cuisine": "Italian",
+    "mealType": ["Dinner", "Main Course"],
+    "season": ["Fall", "Winter"],
+    "dietaryTags": ["Dairy-Free Optional", "Gluten-Free Optional"],
+    "rating": 4.9,
+    "image": "https://images.example.com/bolognese.jpg",
+    "ingredients": [
+      { "amount": "2", "unit": "tbsp", "item": "olive oil" },
+      { "amount": "50", "unit": "g", "item": "unsalted butter" },
+      {
+        "amount": "1",
+        "unit": "large",
+        "item": "yellow onion",
+        "prep": "finely diced"
+      },
+      {
+        "amount": "2",
+        "unit": "medium",
+        "item": "carrots",
+        "prep": "finely diced"
+      },
+      {
+        "amount": "2",
+        "unit": "ribs",
+        "item": "celery",
+        "prep": "finely diced"
+      },
+      {
+        "amount": "150",
+        "unit": "g",
+        "item": "pancetta",
+        "prep": "finely diced"
+      },
+      { "amount": "500", "unit": "g", "item": "ground beef (80/20)" },
+      { "amount": "300", "unit": "g", "item": "ground pork" },
+      { "amount": "300", "unit": "ml", "item": "whole milk" },
+      { "amount": "300", "unit": "ml", "item": "dry white wine" },
+      {
+        "amount": "400",
+        "unit": "g",
+        "item": "canned San Marzano tomatoes",
+        "prep": "crushed by hand"
+      },
+      {
+        "amount": "250",
+        "unit": "ml",
+        "item": "beef stock",
+        "prep": "as needed"
+      },
+      { "amount": "", "unit": "", "item": "Salt and black pepper" }
+    ],
+    "instructions": [
+      "Heat oil and butter in a heavy pot. Render pancetta.",
+      "Add soffritto (onion, carrot, celery), cook slowly 15 min until sweet.",
+      "Add meats in batches, brown deeply.",
+      "Add milk, simmer until evaporated.",
+      "Add wine, simmer until evaporated.",
+      "Add tomatoes and barely cover with stock. Simmer 3–5 hours on lowest heat.",
+      "Finish with salt and pepper. Serve with tagliatelle and Parmigiano."
+    ],
+    "nutritionPerServing": {
+      "calories": 680,
+      "protein": 42,
+      "fat": 42,
+      "carbs": 18,
+      "fiber": 3
+    },
+    "equipment": ["Heavy Dutch oven"],
+    "notes": "Freezes for 3 months. Never serve with spaghetti in Italy.",
+    "proTips": [
+      "Milk tenderizes the meat — non-negotiable.",
+      "Lowest possible simmer = key to flavor."
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "japanese-souffle-pancakes",
+    "title": "Japanese Soufflé Pancakes",
+    "description": "Tall, jiggly, cloud-like pancakes.",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 35,
+    "servings": 2,
+    "difficulty": "Advanced",
+    "cuisine": "Japanese",
+    "mealType": ["Breakfast", "Dessert"],
+    "dietaryTags": ["Vegetarian"],
+    "ingredients": [
+      { "amount": "2", "unit": "", "item": "large eggs", "prep": "separated" },
+      { "amount": "1.5", "unit": "tbsp", "item": "milk" },
+      { "amount": "0.25", "unit": "tsp", "item": "vanilla extract" },
+      { "amount": "30", "unit": "g", "item": "cake flour" },
+      { "amount": "0.5", "unit": "tsp", "item": "baking powder" },
+      { "amount": "30", "unit": "g", "item": "sugar" },
+      { "amount": "2", "unit": "tbsp", "item": "water", "prep": "for steaming" }
+    ],
+    "instructions": [
+      "Whisk yolks, milk, vanilla. Sift in flour + baking powder.",
+      "Beat whites to stiff peaks with sugar.",
+      "Fold meringue into yolk batter in 3 additions.",
+      "Cook in lightly oiled ring molds on lowest heat, covered, with water for steam.",
+      "Flip carefully, steam again. Serve immediately."
+    ],
+    "nutritionPerServing": {
+      "calories": 320,
+      "protein": 12,
+      "fat": 12,
+      "carbs": 42
+    },
+    "equipment": ["Ring molds", "Non-stick pan with lid"],
+    "proTips": [
+      "Zero grease on bowl/beaters or meringue fails.",
+      "Too hot = collapse."
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "thai-green-curry-chicken",
+    "title": "Thai Green Chicken Curry (Gaeng Keow Wan)",
+    "description": "Fragrant, spicy, made with homemade-level expectations.",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "difficulty": "Intermediate",
+    "cuisine": "Thai",
+    "dietaryTags": ["Gluten-Free", "Dairy-Free"],
+    "ingredients": [
+      {
+        "amount": "500",
+        "unit": "g",
+        "item": "chicken thigh",
+        "prep": "bite-sized"
+      },
+      { "amount": "400", "unit": "ml", "item": "coconut milk" },
+      { "amount": "80", "unit": "g", "item": "green curry paste" },
+      { "amount": "100", "unit": "g", "item": "Thai eggplant" },
+      { "amount": "6", "unit": "", "item": "kaffir lime leaves" },
+      { "amount": "2", "unit": "tbsp", "item": "fish sauce" },
+      { "amount": "1", "unit": "tbsp", "item": "palm sugar" },
+      { "amount": "1", "unit": "cup", "item": "Thai basil" }
+    ],
+    "instructions": [
+      "Fry thick coconut cream with paste until fragrant.",
+      "Add chicken, coat well.",
+      "Pour in remaining coconut milk, lime leaves, seasoning.",
+      "Simmer 8 min, add eggplant, cook until tender.",
+      "Off heat, stir in basil and chilies."
+    ],
+    "nutritionPerServing": {
+      "calories": 580,
+      "protein": 38,
+      "fat": 42,
+      "carbs": 14
+    },
+    "proTips": [
+      "Don’t boil coconut milk hard — it splits.",
+      "Taste order: salty → sweet → rich."
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "butter-chicken-murgh-makhani",
+    "title": "Butter Chicken (Murgh Makhani)",
+    "description": "Restaurant-style creamy tomato butter chicken.",
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 120,
+    "servings": 5,
+    "difficulty": "Intermediate",
+    "cuisine": "Indian",
+    "dietaryTags": ["Gluten-Free"],
+    "ingredients": [
+      {
+        "amount": "800",
+        "unit": "g",
+        "item": "chicken thigh",
+        "prep": "boneless"
+      },
+      { "amount": "200", "unit": "g", "item": "yogurt" },
+      { "amount": "2", "unit": "tbsp", "item": "lemon juice" },
+      { "amount": "2", "unit": "tbsp", "item": "garam masala" },
+      { "amount": "100", "unit": "g", "item": "butter" },
+      { "amount": "400", "unit": "g", "item": "tomato passata" },
+      { "amount": "300", "unit": "ml", "item": "heavy cream" },
+      { "amount": "1", "unit": "tbsp", "item": "kasuri methi" }
+    ],
+    "instructions": [
+      "Marinate chicken 1–8 hrs in yogurt, spices, lemon.",
+      "Grill or pan-sear until charred.",
+      "Make sauce: butter → ginger-garlic → spices → passata → cream.",
+      "Add chicken, simmer 10 min, finish with kasuri methi and butter."
+    ],
+    "nutritionPerServing": {
+      "calories": 620,
+      "protein": 45,
+      "fat": 44,
+      "carbs": 12
+    },
+    "proTips": [
+      "Char = flavor. Don’t skip grilling step.",
+      "Kasuri methi at the end is magic."
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "french-onion-soup",
+    "title": "Classic French Onion Soup",
+    "description": "Deeply caramelized onions, beef stock, gruyère crouton.",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 90,
+    "totalTimeMinutes": 105,
+    "servings": 4,
+    "difficulty": "Easy",
+    "cuisine": "French",
+    "ingredients": [
+      {
+        "amount": "1.5",
+        "unit": "kg",
+        "item": "yellow onions",
+        "prep": "thinly sliced"
+      },
+      { "amount": "100", "unit": "g", "item": "butter" },
+      { "amount": "1", "unit": "L", "item": "beef stock" },
+      { "amount": "150", "unit": "ml", "item": "dry white wine" },
+      { "amount": "200", "unit": "g", "item": "Gruyère", "prep": "grated" },
+      { "amount": "1", "unit": "", "item": "baguette" }
+    ],
+    "instructions": [
+      "Caramelize onions in butter 45–60 min, low and slow.",
+      "Deglaze with wine, add stock, simmer 30 min.",
+      "Ladle into oven-safe bowls, top with baguette + cheese, broil until golden."
+    ],
+    "nutritionPerServing": {
+      "calories": 540,
+      "protein": 24,
+      "fat": 34,
+      "carbs": 36
+    },
+    "proTips": ["Patience on onions = 90% of the flavor."]
+  },
+  {
+    "id": 6,
+    "slug": "shakshuka",
+    "title": "Shakshuka (North African Eggs in Tomato Sauce)",
+    "description": "Spicy, smoky, one-pan breakfast classic.",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 25,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "difficulty": "Easy",
+    "cuisine": "Middle Eastern",
+    "dietaryTags": ["Vegetarian", "Gluten-Free", "Dairy-Free Optional"],
+    "ingredients": [
+      { "amount": "6", "unit": "", "item": "eggs" },
+      { "amount": "800", "unit": "g", "item": "canned tomatoes" },
+      { "amount": "2", "unit": "", "item": "red bell peppers" },
+      { "amount": "1", "unit": "tsp", "item": "smoked paprika" },
+      { "amount": "1", "unit": "tsp", "item": "cumin" },
+      { "amount": "0.5", "unit": "tsp", "item": "chili flakes" },
+      { "amount": "100", "unit": "g", "item": "feta", "prep": "optional" }
+    ],
+    "instructions": [
+      "Sauté onion, pepper, garlic. Add spices.",
+      "Add tomatoes, simmer 10 min.",
+      "Make wells, crack eggs, cover until set.",
+      "Finish with feta, parsley, olive oil."
+    ],
+    "nutritionPerServing": {
+      "calories": 280,
+      "protein": 16,
+      "fat": 18,
+      "carbs": 14
+    }
+  },
+  {
+    "id": 7,
+    "slug": "beef-wellington",
+    "title": "Individual Beef Wellington",
+    "description": "Seared filet, mushroom duxelles, prosciutto, puff pastry.",
+    "prepTimeMinutes": 60,
+    "cookTimeMinutes": 40,
+    "totalTimeMinutes": 100,
+    "servings": 2,
+    "difficulty": "Advanced",
+    "cuisine": "British",
+    "ingredients": [
+      {
+        "amount": "2",
+        "unit": "",
+        "item": "beef tenderloin steaks (200g each)"
+      },
+      {
+        "amount": "300",
+        "unit": "g",
+        "item": "mushrooms",
+        "prep": "finely chopped"
+      },
+      { "amount": "6", "unit": "slices", "item": "prosciutto" },
+      { "amount": "1", "unit": "sheet", "item": "puff pastry" },
+      { "amount": "2", "unit": "tbsp", "item": "Dijon mustard" },
+      { "amount": "1", "unit": "", "item": "egg yolk", "prep": "for wash" }
+    ],
+    "instructions": [
+      "Sear filet, coat with mustard, chill.",
+      "Make duxelles, cool completely.",
+      "Wrap in prosciutto, then pastry. Chill 30 min.",
+      "Egg wash, score, bake 200°C 20–25 min for medium-rare."
+    ],
+    "nutritionPerServing": {
+      "calories": 920,
+      "protein": 58,
+      "fat": 62,
+      "carbs": 38
+    },
+    "proTips": ["Everything must be cold before wrapping — or pastry melts."]
+  },
+  {
+    "id": 8,
+    "slug": "miso-ramen",
+    "title": "Tonkotsu-Style Miso Ramen",
+    "description": "Rich pork broth, miso tare, chashu, ajitama.",
+    "prepTimeMinutes": 720,
+    "cookTimeMinutes": 720,
+    "totalTimeMinutes": 2880,
+    "servings": 6,
+    "difficulty": "Hard",
+    "cuisine": "Japanese",
+    "ingredients": [
+      { "amount": "2", "unit": "kg", "item": "pork bones" },
+      {
+        "amount": "800",
+        "unit": "g",
+        "item": "pork belly",
+        "prep": "for chashu"
+      },
+      { "amount": "150", "unit": "g", "item": "red miso" },
+      {
+        "amount": "6",
+        "unit": "",
+        "item": "eggs",
+        "prep": "soft-boiled & marinated"
+      },
+      { "amount": "600", "unit": "g", "item": "fresh ramen noodles" }
+    ],
+    "instructions": [
+      "Boil bones 12–18 hrs for milky broth.",
+      "Make chashu and ajitama.",
+      "Blend miso tare.",
+      "Assemble: tare → broth → noodles → toppings."
+    ],
+    "nutritionPerServing": {
+      "calories": 880,
+      "protein": 48,
+      "fat": 52,
+      "carbs": 62
+    }
+  },
+  {
+    "id": 9,
+    "slug": "vegan-mushroom-risotto",
+    "title": "Creamy Vegan Mushroom Risotto",
+    "description": "No dairy, no compromise.",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 40,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "difficulty": "Intermediate",
+    "cuisine": "Italian",
+    "dietaryTags": ["Vegan", "Gluten-Free"],
+    "ingredients": [
+      { "amount": "400", "unit": "g", "item": "arborio rice" },
+      { "amount": "600", "unit": "g", "item": "mixed mushrooms" },
+      { "amount": "1.5", "unit": "L", "item": "vegetable stock" },
+      { "amount": "150", "unit": "ml", "item": "white wine" },
+      { "amount": "80", "unit": "g", "item": "cashew cream" }
+    ],
+    "instructions": [
+      "Sauté mushrooms hard, reserve.",
+      "Toast rice, deglaze with wine.",
+      "Add hot stock ladle by ladle, stirring constantly.",
+      "Finish with cashew cream and mushrooms."
+    ],
+    "nutritionPerServing": {
+      "calories": 480,
+      "protein": 12,
+      "fat": 14,
+      "carbs": 78
+    }
+  },
+  {
+    "id": 10,
+    "slug": "tacos-al-pastor",
+    "title": "Tacos al Pastor",
+    "description": "Pineapple-marinated pork, spit-roasted style.",
+    "prepTimeMinutes": 180,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 210,
+    "servings": 6,
+    "difficulty": "Intermediate",
+    "cuisine": "Mexican",
+    "ingredients": [
+      {
+        "amount": "1.5",
+        "unit": "kg",
+        "item": "pork shoulder",
+        "prep": "thinly sliced"
+      },
+      { "amount": "200", "unit": "g", "item": "achiote paste" },
+      { "amount": "1", "unit": "", "item": "pineapple" },
+      { "amount": "30", "unit": "", "item": "corn tortillas" },
+      {
+        "amount": "1",
+        "unit": "",
+        "item": "white onion",
+        "prep": "finely diced"
+      },
+      { "amount": "1", "unit": "bunch", "item": "cilantro" }
+    ],
+    "instructions": [
+      "Marinate pork 3+ hrs in achiote, pineapple juice, spices.",
+      "Grill with pineapple slices.",
+      "Chop together, serve in warm corn tortillas with onion, cilantro, salsa."
+    ],
+    "nutritionPerServing": {
+      "calories": 560,
+      "protein": 38,
+      "fat": 28,
+      "carbs": 42
+    }
+  },
+  {
+    "id": 11,
+    "slug": "croissants",
+    "title": "Homemade Butter Croissants",
+    "description": "3-day laminated pastry perfection.",
+    "prepTimeMinutes": 180,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 2880,
+    "servings": 12,
+    "difficulty": "Expert",
+    "cuisine": "French",
+    "dietaryTags": ["Vegetarian"],
+    "ingredients": [
+      { "amount": "500", "unit": "g", "item": "bread flour" },
+      {
+        "amount": "300",
+        "unit": "g",
+        "item": "European butter",
+        "prep": "cold"
+      },
+      { "amount": "70", "unit": "g", "item": "sugar" },
+      { "amount": "10", "unit": "g", "item": "salt" },
+      { "amount": "25", "unit": "g", "item": "fresh yeast" },
+      { "amount": "270", "unit": "ml", "item": "cold milk" }
+    ],
+    "instructions": [
+      "Day 1: Make détrempe, lock in butter, 3 turns.",
+      "Day 2: Final turn, shape, proof.",
+      "Day 3: Egg wash, bake 200°C 18–20 min."
+    ],
+    "nutritionPerServing": {
+      "calories": 380,
+      "protein": 7,
+      "fat": 22,
+      "carbs": 38
+    },
+    "proTips": ["Keep everything cold. Temperature control is life."]
+  },
+  {
+    "id": 12,
+    "slug": "philly-cheesesteak",
+    "title": "Authentic Philly Cheesesteak",
+    "description": "Ribeye, Cooper Sharp, onions, amoroso roll.",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 10,
+    "totalTimeMinutes": 20,
+    "servings": 4,
+    "difficulty": "Easy",
+    "cuisine": "American",
+    "ingredients": [
+      {
+        "amount": "600",
+        "unit": "g",
+        "item": "ribeye",
+        "prep": "thinly shaved"
+      },
+      { "amount": "300", "unit": "g", "item": "Cooper Sharp or provolone" },
+      { "amount": "2", "unit": "", "item": "yellow onions", "prep": "sliced" },
+      { "amount": "4", "unit": "", "item": "Amoroso rolls" }
+    ],
+    "instructions": [
+      "Freeze ribeye 30 min, slice paper thin.",
+      "High-heat griddle: onions first, then beef in piles.",
+      "Chop together, melt cheese on top.",
+      "Stuff into toasted roll."
+    ],
+    "nutritionPerServing": {
+      "calories": 780,
+      "protein": 48,
+      "fat": 44,
+      "carbs": 52
+    }
+  },
+  {
+    "id": 13,
+    "slug": "korean-bbq-short-ribs",
+    "title": "LA Galbi (Korean BBQ Short Ribs)",
+    "description": "Flanken-cut, sweet-soy marinade.",
+    "prepTimeMinutes": 240,
+    "cookTimeMinutes": 10,
+    "totalTimeMinutes": 250,
+    "servings": 4,
+    "difficulty": "Easy",
+    "cuisine": "Korean",
+    "ingredients": [
+      { "amount": "1.5", "unit": "kg", "item": "flanken-cut short ribs" },
+      { "amount": "1", "unit": "", "item": "Asian pear", "prep": "grated" },
+      { "amount": "150", "unit": "ml", "item": "soy sauce" },
+      { "amount": "80", "unit": "g", "item": "sugar" },
+      { "amount": "8", "unit": "", "item": "garlic cloves" },
+      { "amount": "2", "unit": "tbsp", "item": "sesame oil" }
+    ],
+    "instructions": [
+      "Blend marinade, soak ribs 4–24 hrs.",
+      "Grill over high heat 2–3 min per side.",
+      "Serve with lettuce, ssamjang, rice."
+    ],
+    "nutritionPerServing": {
+      "calories": 720,
+      "protein": 52,
+      "fat": 48,
+      "carbs": 28
+    }
+  },
+  {
+    "id": 14,
+    "slug": "ratatouille",
+    "title": "Provençal Ratatouille",
+    "description": "Not the Disney version — the real layered one.",
+    "prepTimeMinutes": 45,
+    "cookTimeMinutes": 90,
+    "totalTimeMinutes": 135,
+    "servings": 6,
+    "difficulty": "Intermediate",
+    "cuisine": "French",
+    "dietaryTags": ["Vegan", "Gluten-Free"],
+    "ingredients": [
+      { "amount": "2", "unit": "", "item": "eggplants" },
+      { "amount": "3", "unit": "", "item": "zucchinis" },
+      { "amount": "4", "unit": "", "item": "tomatoes" },
+      { "amount": "2", "unit": "", "item": "bell peppers" },
+      { "amount": "500", "unit": "g", "item": "tomato sauce" },
+      { "amount": "1", "unit": "bunch", "item": "thyme" }
+    ],
+    "instructions": [
+      "Salt eggplant, sweat 30 min.",
+      "Slice everything 3mm thin.",
+      "Layer sauce → vegetables in spiral in cast iron.",
+      "Bake covered 180°C 60 min, uncovered 30 min."
+    ],
+    "nutritionPerServing": {
+      "calories": 160,
+      "protein": 5,
+      "fat": 6,
+      "carbs": 26
+    }
+  },
+  {
+    "id": 15,
+    "slug": "sourdough-bread",
+    "title": "75% Hydration Sourdough Boule",
+    "description": "Open crumb, blistered crust.",
+    "prepTimeMinutes": 1440,
+    "cookTimeMinutes": 45,
+    "totalTimeMinutes": 1800,
+    "servings": 1,
+    "difficulty": "Advanced",
+    "cuisine": "Artisan",
+    "dietaryTags": ["Vegan", "Dairy-Free"],
+    "ingredients": [
+      { "amount": "700", "unit": "g", "item": "bread flour" },
+      { "amount": "300", "unit": "g", "item": "whole wheat flour" },
+      { "amount": "750", "unit": "g", "item": "water" },
+      { "amount": "200", "unit": "g", "item": "active starter" },
+      { "amount": "20", "unit": "g", "item": "salt" }
+    ],
+    "instructions": [
+      "Autolyse 1 hr. Add starter and salt.",
+      "4–6 stretch & folds over 3 hrs.",
+      "Bulk ferment 12–16 hrs cold.",
+      "Shape, proof in basket, bake in Dutch oven 500°F 20 min lid on, 20 off."
+    ],
+    "nutritionPerServing": {
+      "calories": 180,
+      "protein": 6,
+      "fat": 1,
+      "carbs": 36
+    }
+  },
+  {
+    "id": 16,
+    "slug": "pad-thai",
+    "title": "Authentic Pad Thai",
+    "description": "Street-style, tamarind-forward.",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "difficulty": "Intermediate",
+    "cuisine": "Thai",
+    "ingredients": [
+      { "amount": "200", "unit": "g", "item": "rice noodles" },
+      { "amount": "300", "unit": "g", "item": "prawns or chicken" },
+      { "amount": "80", "unit": "g", "item": "tamarind paste" },
+      { "amount": "60", "unit": "g", "item": "palm sugar" },
+      { "amount": "3", "unit": "tbsp", "item": "fish sauce" },
+      { "amount": "100", "unit": "g", "item": "bean sprouts" },
+      { "amount": "2", "unit": "", "item": "eggs" }
+    ],
+    "instructions": [
+      "Soak noodles 30 min.",
+      "Make sauce: tamarind + palm sugar + fish sauce.",
+      "Wok: protein → egg → noodles → sauce → sprouts.",
+      "Serve with lime, chili, peanuts."
+    ],
+    "nutritionPerServing": {
+      "calories": 520,
+      "protein": 28,
+      "fat": 14,
+      "carbs": 72
+    }
+  },
+  {
+    "id": 17,
+    "slug": "chicken-tikka-masala",
+    "title": "Chicken Tikka Masala",
+    "description": "Britain’s national dish, done right.",
+    "prepTimeMinutes": 240,
+    "cookTimeMinutes": 30,
+    "totalTimeMinutes": 270,
+    "servings": 6,
+    "difficulty": "Intermediate",
+    "cuisine": "Indian",
+    "ingredients": [
+      { "amount": "1", "unit": "kg", "item": "chicken thigh" },
+      { "amount": "200", "unit": "g", "item": "yogurt" },
+      { "amount": "2", "unit": "tbsp", "item": "tandoori masala" },
+      { "amount": "400", "unit": "g", "item": "tomato passata" },
+      { "amount": "300", "unit": "ml", "item": "cream" },
+      { "amount": "50", "unit": "g", "item": "butter" }
+    ],
+    "instructions": [
+      "Marinate & grill chicken.",
+      "Make masala sauce with butter, spices, tomato, cream.",
+      "Combine, simmer, finish with fenugreek."
+    ],
+    "nutritionPerServing": {
+      "calories": 580,
+      "protein": 46,
+      "fat": 38,
+      "carbs": 16
+    }
+  },
+  {
+    "id": 18,
+    "slug": "lobster-roll",
+    "title": "Connecticut-Style Warm Lobster Roll",
+    "description": "Hot buttered lobster, New England bun.",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 5,
+    "totalTimeMinutes": 25,
+    "servings": 4,
+    "difficulty": "Easy",
+    "cuisine": "American",
+    "ingredients": [
+      { "amount": "600", "unit": "g", "item": "cooked lobster meat" },
+      { "amount": "100", "unit": "g", "item": "butter" },
+      { "amount": "4", "unit": "", "item": "New England hot dog buns" },
+      { "amount": "1", "unit": "", "item": "lemon" }
+    ],
+    "instructions": [
+      "Gently warm lobster in butter.",
+      "Toast buns in butter on sides.",
+      "Stuff with lobster, drizzle extra butter."
+    ],
+    "nutritionPerServing": {
+      "calories": 540,
+      "protein": 38,
+      "fat": 32,
+      "carbs": 28
+    }
+  },
+  {
+    "id": 19,
+    "slug": "kimchi-fried-rice",
+    "title": "Kimchi Bokkeumbap",
+    "description": "Fast, funky, perfect.",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 10,
+    "totalTimeMinutes": 15,
+    "servings": 2,
+    "difficulty": "Easy",
+    "cuisine": "Korean",
+    "ingredients": [
+      { "amount": "2", "unit": "cups", "item": "day-old rice" },
+      { "amount": "150", "unit": "g", "item": "kimchi", "prep": "chopped" },
+      { "amount": "2", "unit": "tbsp", "item": "kimchi juice" },
+      { "amount": "1", "unit": "tbsp", "item": "gochujang" },
+      { "amount": "1", "unit": "", "item": "fried egg" },
+      { "amount": "1", "unit": "sheet", "item": "gim", "prep": "crumbled" }
+    ],
+    "instructions": [
+      "High heat wok. Fry kimchi.",
+      "Add rice, break up, add juice and gochujang.",
+      "Top with egg and gim."
+    ],
+    "nutritionPerServing": {
+      "calories": 460,
+      "protein": 14,
+      "fat": 12,
+      "carbs": 72
+    }
+  },
+  {
+    "id": 20,
+    "slug": "chocolate-lava-cake",
+    "title": "Molten Chocolate Lava Cake",
+    "description": "Gooey center, 12 minutes.",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 12,
+    "totalTimeMinutes": 27,
+    "servings": 4,
+    "difficulty": "Intermediate",
+    "cuisine": "French",
+    "ingredients": [
+      { "amount": "100", "unit": "g", "item": "dark chocolate" },
+      { "amount": "100", "unit": "g", "item": "butter" },
+      { "amount": "2", "unit": "", "item": "eggs" },
+      { "amount": "2", "unit": "", "item": "egg yolks" },
+      { "amount": "50", "unit": "g", "item": "sugar" },
+      { "amount": "30", "unit": "g", "item": "flour" }
+    ],
+    "instructions": [
+      "Melt chocolate and butter.",
+      "Whisk eggs, yolks, sugar. Combine.",
+      "Fold in flour. Fill buttered ramekins ¾.",
+      "Bake 200°C exactly 12 min."
+    ],
+    "nutritionPerServing": {
+      "calories": 480,
+      "protein": 8,
+      "fat": 36,
+      "carbs": 34
+    }
+  },
+  {
+    "id": 21,
+    "slug": "caesar-salad",
+    "title": "Real Caesar Salad (Table-side Style)",
+    "description": "No bottled dressing allowed.",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 0,
+    "totalTimeMinutes": 15,
+    "servings": 4,
+    "difficulty": "Easy",
+    "cuisine": "Italian-American",
+    "ingredients": [
+      { "amount": "2", "unit": "heads", "item": "romaine lettuce" },
+      { "amount": "1", "unit": "", "item": "egg yolk" },
+      { "amount": "2", "unit": "", "item": "anchovy fillets" },
+      { "amount": "1", "unit": "", "item": "garlic clove" },
+      { "amount": "100", "unit": "g", "item": "Parmigiano-Reggiano" },
+      { "amount": "1", "unit": "", "item": "lemon" },
+      { "amount": "100", "unit": "ml", "item": "olive oil" }
+    ],
+    "instructions": [
+      "Mash anchovy and garlic with salt.",
+      "Whisk in yolk, lemon, then oil slowly.",
+      "Toss with romaine and cheese. Add croutons."
+    ],
+    "nutritionPerServing": {
+      "calories": 320,
+      "protein": 14,
+      "fat": 28,
+      "carbs": 8
+    }
+  },
+  {
+    "id": 22,
+    "slug": "pasta-carbonara",
+    "title": "Spaghetti alla Carbonara",
+    "description": "No cream. Ever.",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 25,
+    "servings": 4,
+    "difficulty": "Easy",
+    "cuisine": "Italian",
+    "ingredients": [
+      { "amount": "400", "unit": "g", "item": "spaghetti" },
+      { "amount": "150", "unit": "g", "item": "guanciale" },
+      { "amount": "4", "unit": "", "item": "egg yolks" },
+      { "amount": "1", "unit": "", "item": "whole egg" },
+      { "amount": "100", "unit": "g", "item": "Pecorino Romano" },
+      { "amount": "", "unit": "", "item": "Black pepper" }
+    ],
+    "instructions": [
+      "Render guanciale until crisp.",
+      "Mix eggs and cheese.",
+      "Toss hot pasta with fat, then off-heat with egg mixture.",
+      "Add pasta water for creaminess."
+    ],
+    "nutritionPerServing": {
+      "calories": 680,
+      "protein": 28,
+      "fat": 32,
+      "carbs": 68
+    }
+  },
+  {
+    "id": 23,
+    "slug": "sushi-bake",
+    "title": "Sushi Bake (Viral Filipino Style)",
+    "description": "Deconstructed California roll casserole.",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 40,
+    "servings": 8,
+    "difficulty": "Easy",
+    "cuisine": "Fusion",
+    "ingredients": [
+      { "amount": "4", "unit": "cups", "item": "cooked sushi rice" },
+      { "amount": "400", "unit": "g", "item": "imitation crab" },
+      { "amount": "200", "unit": "g", "item": "cream cheese" },
+      { "amount": "100", "unit": "g", "item": "Japanese mayo" },
+      { "amount": "50", "unit": "g", "item": "furikake" },
+      { "amount": "2", "unit": "", "item": "avocados" }
+    ],
+    "instructions": [
+      "Season rice with vinegar mix.",
+      "Layer rice → crab-mayo-cream cheese mix.",
+      "Top with more mayo and furikake.",
+      "Bake 200°C 15–20 min until golden."
+    ],
+    "nutritionPerServing": {
+      "calories": 420,
+      "protein": 14,
+      "fat": 22,
+      "carbs": 46
+    }
+  },
+  {
+    "id": 24,
+    "slug": "beef-bourguignon",
+    "title": "Beef Bourguignon (Julia Child)",
+    "description": "6-hour French beef stew in red wine.",
+    "prepTimeMinutes": 60,
+    "cookTimeMinutes": 240,
+    "totalTimeMinutes": 300,
+    "servings": 6,
+    "difficulty": "Advanced",
+    "cuisine": "French",
+    "ingredients": [
+      {
+        "amount": "1.5",
+        "unit": "kg",
+        "item": "beef chuck",
+        "prep": "2-inch cubes"
+      },
+      { "amount": "750", "unit": "ml", "item": "red Burgundy wine" },
+      { "amount": "200", "unit": "g", "item": "bacon lardons" },
+      { "amount": "500", "unit": "g", "item": "mushrooms" },
+      { "amount": "20", "unit": "", "item": "pearl onions" },
+      { "amount": "500", "unit": "ml", "item": "beef stock" }
+    ],
+    "instructions": [
+      "Marinate beef overnight in wine.",
+      "Brown beef and bacon.",
+      "Slow cook 4 hrs with aromatics.",
+      "Sauté mushrooms and onions separately, add at end."
+    ],
+    "nutritionPerServing": {
+      "calories": 740,
+      "protein": 58,
+      "fat": 42,
+      "carbs": 18
+    }
+  },
+  {
+    "id": 25,
+    "slug": "biryani",
+    "title": "Hyderabadi Chicken Dum Biryani",
+    "description": "Layered, sealed, steamed perfection.",
+    "prepTimeMinutes": 120,
+    "cookTimeMinutes": 60,
+    "totalTimeMinutes": 180,
+    "servings": 8,
+    "difficulty": "Advanced",
+    "cuisine": "Indian",
+    "ingredients": [
+      { "amount": "1.5", "unit": "kg", "item": "chicken" },
+      { "amount": "800", "unit": "g", "item": "basmati rice" },
+      { "amount": "300", "unit": "g", "item": "yogurt" },
+      { "amount": "2", "unit": "tsp", "item": "saffron", "prep": "in milk" },
+      { "amount": "100", "unit": "g", "item": "ghee" },
+      { "amount": "4", "unit": "", "item": "onions", "prep": "fried crisp" }
+    ],
+    "instructions": [
+      "Marinate chicken 2 hrs.",
+      "Parboil rice with whole spices.",
+      "Layer chicken → rice → saffron → fried onions.",
+      "Seal pot with dough, cook on dum 40 min."
+    ],
+    "nutritionPerServing": {
+      "calories": 680,
+      "protein": 42,
+      "fat": 28,
+      "carbs": 68
+    }
+  },
+  {
+    "id": 26,
+    "slug": "tonkatsu",
+    "title": "Japanese Tonkatsu (Pork Cutlet)",
+    "description": "Crispy panko, cabbage, tonkatsu sauce.",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "difficulty": "Intermediate",
+    "cuisine": "Japanese",
+    "ingredients": [
+      { "amount": "4", "unit": "", "item": "pork loin chops" },
+      { "amount": "100", "unit": "g", "item": "panko" },
+      { "amount": "50", "unit": "g", "item": "flour" },
+      { "amount": "2", "unit": "", "item": "eggs" },
+      { "amount": "300", "unit": "g", "item": "cabbage", "prep": "shredded" }
+    ],
+    "instructions": [
+      "Pound pork to 1cm, season.",
+      "Flour → egg → panko.",
+      "Fry 160°C oil 5–6 min until golden.",
+      "Rest 3 min, slice, serve with sauce and cabbage."
+    ],
+    "nutritionPerServing": {
+      "calories": 580,
+      "protein": 38,
+      "fat": 32,
+      "carbs": 38
+    }
+  },
+  {
+    "id": 27,
+    "slug": "falafel",
+    "title": "Crispy Homemade Falafel",
+    "description": "From dried chickpeas only.",
+    "prepTimeMinutes": 720,
+    "cookTimeMinutes": 20,
+    "totalTimeMinutes": 740,
+    "servings": 6,
+    "difficulty": "Intermediate",
+    "cuisine": "Middle Eastern",
+    "dietaryTags": ["Vegan", "Gluten-Free Optional"],
+    "ingredients": [
+      {
+        "amount": "500",
+        "unit": "g",
+        "item": "dried chickpeas",
+        "prep": "soaked overnight"
+      },
+      { "amount": "1", "unit": "bunch", "item": "parsley" },
+      { "amount": "1", "unit": "bunch", "item": "cilantro" },
+      { "amount": "8", "unit": "", "item": "garlic cloves" },
+      { "amount": "2", "unit": "tsp", "item": "cumin" },
+      { "amount": "1", "unit": "tsp", "item": "baking soda" }
+    ],
+    "instructions": [
+      "Soak chickpeas 12–24 hrs.",
+      "Pulse with herbs and spices — keep chunky.",
+      "Rest mix 30 min, add baking soda.",
+      "Shape, deep fry 170°C 4–5 min."
+    ],
+    "nutritionPerServing": {
+      "calories": 380,
+      "protein": 16,
+      "fat": 18,
+      "carbs": 42
+    }
+  },
+  {
+    "id": 28,
+    "slug": "creme-brulee",
+    "title": "Classic Crème Brûlée",
+    "description": "Silky custard, crackly sugar top.",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 40,
+    "totalTimeMinutes": 300,
+    "servings": 6,
+    "difficulty": "Intermediate",
+    "cuisine": "French",
+    "ingredients": [
+      { "amount": "600", "unit": "ml", "item": "heavy cream" },
+      { "amount": "6", "unit": "", "item": "egg yolks" },
+      { "amount": "100", "unit": "g", "item": "sugar" },
+      { "amount": "1", "unit": "", "item": "vanilla bean" },
+      {
+        "amount": "50",
+        "unit": "g",
+        "item": "demerara sugar",
+        "prep": "for torching"
+      }
+    ],
+    "instructions": [
+      "Heat cream with vanilla to just below boil.",
+      "Temper into yolks + sugar.",
+      "Strain, pour into ramekins.",
+      "Water bath 150°C 35–40 min. Chill 4 hrs. Torch sugar."
+    ],
+    "nutritionPerServing": {
+      "calories": 460,
+      "protein": 6,
+      "fat": 38,
+      "carbs": 28
+    }
+  },
+  {
+    "id": 29,
+    "slug": "banh-mi",
+    "title": "Vietnamese Bánh Mì Thit Nuong",
+    "description": "Grilled pork, pickled veg, baguette.",
+    "prepTimeMinutes": 60,
+    "cookTimeMinutes": 15,
+    "totalTimeMinutes": 75,
+    "servings": 4,
+    "difficulty": "Intermediate",
+    "cuisine": "Vietnamese",
+    "ingredients": [
+      {
+        "amount": "600",
+        "unit": "g",
+        "item": "pork shoulder",
+        "prep": "sliced"
+      },
+      { "amount": "3", "unit": "tbsp", "item": "fish sauce" },
+      { "amount": "2", "unit": "tbsp", "item": "honey" },
+      { "amount": "1", "unit": "", "item": "daikon" },
+      { "amount": "2", "unit": "", "item": "carrots" },
+      { "amount": "1", "unit": "", "item": "baguette" },
+      { "amount": "1", "unit": "", "item": "cucumber" },
+      { "amount": "1", "unit": "bunch", "item": "cilantro" }
+    ],
+    "instructions": [
+      "Marinate pork 1 hr.",
+      "Grill until caramelized.",
+      "Pickle daikon and carrot.",
+      "Assemble: mayo → pâté → pork → pickles → cucumber → cilantro → chili."
+    ],
+    "nutritionPerServing": {
+      "calories": 620,
+      "protein": 38,
+      "fat": 24,
+      "carbs": 64
+    }
+  },
+  {
+    "id": 30,
+    "slug": "korean-braised-short-ribs-galbi-jjim",
+    "title": "Korean Braised Beef Short Ribs (Galbi-jjim)",
+    "description": "Tender, sweet-savory, festive dish.",
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 150,
+    "totalTimeMinutes": 180,
+    "servings": 6,
+    "difficulty": "Intermediate",
+    "cuisine": "Korean",
+    "dietaryTags": ["Dairy-Free", "Gluten-Free Optional"],
+    "ingredients": [
+      {
+        "amount": "2",
+        "unit": "kg",
+        "item": "beef short ribs",
+        "prep": "English cut"
+      },
+      { "amount": "1", "unit": "", "item": "Asian pear", "prep": "pureed" },
+      { "amount": "1", "unit": "", "item": "onion", "prep": "pureed" },
+      { "amount": "10", "unit": "", "item": "garlic cloves" },
+      { "amount": "80", "unit": "ml", "item": "soy sauce" },
+      { "amount": "60", "unit": "g", "item": "brown sugar" },
+      { "amount": "300", "unit": "g", "item": "Korean radish" },
+      { "amount": "10", "unit": "", "item": "chestnuts" },
+      { "amount": "6", "unit": "", "item": "shiitake" },
+      { "amount": "2", "unit": "", "item": "carrots" }
+    ],
+    "instructions": [
+      "Soak and blanch ribs to clean.",
+      "Blend marinade with pear and onion.",
+      "Braise 2.5 hrs, add vegetables last hour.",
+      "Reduce sauce, garnish with sesame and pine nuts."
+    ],
+    "nutritionPerServing": {
+      "calories": 820,
+      "protein": 58,
+      "fat": 58,
+      "carbs": 32
+    },
+    "proTips": [
+      "Blanching removes scum — don’t skip.",
+      "Pear tenderizes and sweetens."
+    ]
+  }
+]
