@@ -13,11 +13,11 @@ const PostsContent = () => {
         return response.json()
     }
 
-    const {data , isError, isLoading , error} = useQuery({
-        queryKey : ["posts"],
-        queryFn : fetchPosts,
-        staleTime : 100000
-    })
+    const { data, isError, isLoading, error } = useQuery({
+      queryKey: ["posts"],
+      queryFn: fetchPosts,
+      staleTime: 10000000
+    });
     
     const commentsPerPage = 5;
     const totalPages = Math.ceil(data?.length / commentsPerPage)

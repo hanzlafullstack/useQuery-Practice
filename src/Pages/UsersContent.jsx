@@ -13,7 +13,8 @@ const UsersContent = () => {
     
     const {data , isLoading , error, isError} = useQuery({
         queryKey : ["users"],
-        queryFn : fetchUsers
+        queryFn : fetchUsers,
+        staleTime : 10000000
     })
     
     if(isError) return <p>Error Occured: {error.message}</p>
@@ -34,7 +35,7 @@ const UsersContent = () => {
         <p className="sub-heading">Random Users Data From JsonPlaceHolder</p>
       </div>
       {userSlicer?.map((user) => (
-        <div className="content-box">
+        <div className="content-box" key={user.id}>
           <h2>{user.name}</h2>
           <p>Email Address : {user.email}</p>
           <span>

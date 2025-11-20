@@ -15,6 +15,7 @@ import HomeContent from "./Pages/HomeContent.jsx";
 import PostsContent from "./Pages/PostsContent.jsx";
 import UsersContent from "./Pages/UsersContent.jsx";
 import RecipesContent from "./Pages/RecipesContent.jsx";
+import RecipeDetails, { fetchRecipesSlug } from "./Pages/RecipeDetails.jsx";
 
 const queryClient = new QueryClient();
 
@@ -24,7 +25,14 @@ const router = createBrowserRouter(
       <Route index element={<HomeContent />} />
       <Route path="posts" element={<PostsContent />} />
       <Route path="users" element={<UsersContent />} />
-      <Route path="recipes" element={<RecipesContent />} />
+      <Route path="recipes">
+        <Route index element={<RecipesContent />} />
+        <Route
+          path=":slug"
+          loader={fetchRecipesSlug}
+          element={<RecipeDetails />}
+        />
+      </Route>
     </Route>
   )
 );
