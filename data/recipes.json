@@ -1120,10 +1120,8 @@
       "Blanching removes scum — don’t skip.",
       "Pear tenderizes and sweetens."
     ]
-  }
-]
-=======
-[
+  },
+
   {
     "id": 1,
     "slug": "classic-beef-bolognese",
@@ -2187,4 +2185,4 @@
     "proTips": ["Blanching step removes blood and odor."]
   }
 ]
->>>>>>> 48ca5380e98022aadfa4ff3b5dd3f6cb571bd54c
+
